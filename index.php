@@ -11,7 +11,7 @@
 		
 		<meta name="author" content="Rodrigo Teixeira" />
 		<meta name="description" content="Alternativa Coletiva &eacute; um estúdio coletivo de consultoria e curadoria de conteúdo para web. São Paulo, Brasil">
-		<meta name="keywords" content="curadoria, comunicação, conteúdo, estratégia, redes sociais, informação, website, relacionamento, construção, marca, presença, tática, social,">
+		<meta name="keywords" content="curadoria, comunicação, conteúdo, estratégia, redes sociais, informação, website, relacionamento, construção">
 
 		<!-- FACEBOOK -->
 		<meta property="fb:app_id" content="298450296104">
@@ -26,7 +26,7 @@
 		<!-- FAVICONS -->
 		<link rel="shortcut icon" href="img/favicon.ico">
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">	
 		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
 		<!-- FOLHAS DE ESTILO -->
