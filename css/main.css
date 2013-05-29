@@ -1,0 +1,179 @@
+/* Imports */
+@import "normalize.css";
+@import "fluid_skeleton.css";
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
+
+html {
+	font: 100%/1.5em "PT Sans", sans-serif;
+	text-align: center;
+}
+
+a {
+	color: #e33f0c;
+}
+
+img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
+
+header.band {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 5% 0 15% 0;
+}
+
+
+
+h1, h2, h3 {
+	font-family: "PT Serif", serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+header.band h1 {
+	font-size: 2em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 2em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	line-height: 1.2em;
+}
+
+.services h2 {
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 1.1em;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: .2em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+hr {
+	margin: 1em 0;
+	height: 1px;
+	background: #d3d3d3;
+	border: none;
+	width: 100%;
+	clear: both;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a.button {
+	background: #e33f0c;
+	text-align:center;
+	padding: .5em 1em;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 0 0 .2em 0 #ab3009;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	-webkit-transition: background 0.2s ease-out;
+	-moz-transition: background 0.2s ease-out;
+	-o-transition: background 0.2s ease-out;
+	transition: background 0.2s ease-out;
+}
+
+a.button:hover {
+	background: #ab3009;
+}
+
+.contact a.button {
+	font-size: .8em;
+}
+
+div.band .columns {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul li {
+	line-height: 2em;
+	color: #1b88bf;
+}
+
+ol li {
+	text-align: center;
+}
+
+
+.avatar {
+	width: 100%;
+}
+
+.avatar img {
+	width: 153px;
+	margin: 0 25%;
+}
+
+.image {
+	width: 100%;
+	height: auto;
+}
+
+.twitter {
+	display: block;
+	text-align: center;
+	font-size: .9em;
+}
+
+
+footer {
+	background: #333;
+	color: #fff;
+	font-size: .8em;
+}
+
+footer a {
+	color: #fff;
+}
+
+@media only screen and (min-width: 767px) {
+	body {
+		font-size: 1.125em;
+		line-height: 1.7em;
+	}
+
+	div.band .columns {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+
+	header.band {
+		background-image: url(../img/background.jpg);
+		background-size: 100%;
+	}
+
+	header.band h1 {
+		font-size: 3.25em; 
+	}
+
+	a.button {
+		padding: .75em 1.5em;
+	}
+
+	footer {
+		text-align: left;
+	}
+
+	.last {
+		text-align: right;
+	}
+}
+
