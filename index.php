@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="google-site-verification" content="pHW9MGYJEfR8wsB2rn2nyA4QYRp6YiM-n-BdSrZtpCc">
 		
-		<meta name="author" content="Rodrigo Teixeira" />
+		<link rel=”author” href=”https://plus.google.com/110545419521358863582/“ />
 		<meta name="description" content="Alternativa Coletiva &eacute; um estúdio coletivo de consultoria e curadoria de conteúdo para web. São Paulo, Brasil">
 		<meta name="keywords" content="curadoria, comunicação, conteúdo, estratégia, redes sociais, informação, website, relacionamento, construção">
 
