@@ -157,7 +157,6 @@
 						<li>Conteúdo e Estratégia de SEO</li>
 						<li>Produção e Revisão Textual</li>
 						<li>Arquitetura de Informação</li>
-						<li>Website/Hotsites</li>
 					</ul>
 
 				</div>
