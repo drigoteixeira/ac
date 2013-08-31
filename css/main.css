@@ -1,45 +1,47 @@
 /* Imports */
 @import "normalize.css";
 @import "fluid_skeleton.css";
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
 
 html {
-	font: 100%/1.5em "PT Sans", sans-serif;
-	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	color: #444;
 }
 
 a {
-	color: #e33f0c;
+	color: #F1604B;
 }
 
 img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
 
 header.band {
-	background: #333;
+	background: #444;
 	color: #fff;
+	padding: 5% 0 10% 0;
 	text-align: center;
-	padding: 5% 0 15% 0;
 }
 
-
+p.tagline {
+	background: none repeat scroll 0 0 rgba(241, 96, 75, 0.8);
+	font-size: 1.6em;
+	padding: 4% 5%;
+}
 
 h1, h2, h3 {
-	font-family: "PT Serif", serif;
 	font-weight: 700;
-	text-align: center;
 }
 
-header.band h1 {
-	font-size: 2em;
-	line-height: 1em;
-	margin-bottom: 1em;
-}
 
 h2 {
 	font-size: 2em;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	line-height: 1.2em;
+	letter-spacing: -1px;
 }
 
 .services h2 {
@@ -47,18 +49,17 @@ h2 {
 }
 
 h3 {
-	font-size: 1.1em;
-	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
 	font-weight: 700;
-	margin-bottom: .2em;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
+	margin-bottom: .1em;
 }
+
+
 
 hr {
 	margin: 1em 0;
 	height: 1px;
-	background: #d3d3d3;
+	background: #ccc;
 	border: none;
 	width: 100%;
 	clear: both;
@@ -69,15 +70,17 @@ a, a:visited {
 }
 
 a.button {
-	background: #e33f0c;
-	text-align:center;
-	padding: .5em 1em;
-	color: #fff;
-	font-weight: bold;
-	text-decoration: none;
-	box-shadow: 0 0 .2em 0 #ab3009;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
+	background: none repeat scroll 0 0 #F1604B;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 10px;
+    padding: 0.9em 1.8em 0.8em;
+    text-shadow: none;
 	-webkit-transition: background 0.2s ease-out;
 	-moz-transition: background 0.2s ease-out;
 	-o-transition: background 0.2s ease-out;
@@ -118,7 +121,6 @@ ol li {
 
 .avatar img {
 	width: 153px;
-	margin: 0 25%;
 }
 
 .image {
@@ -128,7 +130,6 @@ ol li {
 
 .twitter {
 	display: block;
-	text-align: center;
 	font-size: .9em;
 }
 
@@ -136,7 +137,7 @@ ol li {
 footer {
 	background: #333;
 	color: #fff;
-	font-size: .8em;
+	font-size: .7em;
 }
 
 footer a {
@@ -156,9 +157,20 @@ footer a {
 
 
 	header.band {
-		background-image: url(../img/background.jpg);
+		background-image: url(../img/background.jpg);	
 		background-size: 100%;
 	}
+
+	p.tagline {
+		background: none repeat scroll 0 0 rgba(241, 96, 75, 0.8);
+		font-size: 2.2em;
+		line-height: 1em;
+		font-weight: 300;
+		letter-spacing: -1px;
+		padding: 2% 5%;
+		margin: 0 5%;
+}
+
 
 	header.band h1 {
 		font-size: 3.25em; 

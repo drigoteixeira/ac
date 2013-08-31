@@ -41,7 +41,7 @@
 			<div class="container">
 				<div class="columns sixteen" data-0="opacity: 1" data-180="opacity: 0;">
 					<h1><img src="img/logo.png" alt="Alternativa Coletiva"></h1>
-					<a class="button roll" href="#conceito">Nosso conceito</a>
+					<p class="tagline">Estúdio 100% alocado e especializado em construir histórias para marcas e serviços.</p>
 				</div>
 			</div>
 		</header>
@@ -81,7 +81,7 @@
 					</figure>
 					<h3>Rodrigo Teixeira</h3>
 					<span class="twitter"><a href="http://www.twitter.com/drigoteixeira">@drigoteixeira</a></span>
-					<p>Co-fundador, Desenvolvedor Web e Entusiasta de Arquitetura de Informação</p>
+					<p>Co-fundador, Web Designer e Entusiasta de Arquitetura de Informação</p>
 				</div>
 			</div>
 		</div>
@@ -199,7 +199,7 @@
 	<script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript">
 	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-17506789-1']);
+	  //_gaq.push(['_setAccount', 'UA-17506789-1']);
 	  _gaq.push(['_trackPageview']);
 
 	  (function() {
